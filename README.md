@@ -1,4 +1,4 @@
-# Bioelectrica;Sensing_ADS1115
+# Bioelectrical Sensing using Gravity ADS1115 
 Sensing Silent Signals: Electrical Characterisation of mycelial Network
 This project uses a Raspberry Pi (or compatible board) with an ADS1115 ADC to read voltages from four analog channels, log them to a file (`mushroom.txt`), and send them to a Flask server for real-time monitoring.
 
