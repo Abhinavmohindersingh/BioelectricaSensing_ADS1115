@@ -108,7 +108,7 @@ def apply_baseline_drift_correction(file_path, output_file_path, output_folder):
         logging.error("❌ Error: %s", e)
 
 if __name__ == "__main__":
-    file_path = '/Users/abhinavsingh/Desktop/SEM1_2025/BIOME_Dashboard/Data_readings/gain16/differentialmode/gain4_17april_21april.csv'
-    output_file_path = '/Users/abhinavsingh/Desktop/SEM1_2025/BIOME_Dashboard/Data_readings/gain16/differentialmode/gain4_17april_21april_detrended.csv'
+    file_path = 'study3/datareadings/gain4_17april_21april.csv'
+    output_file_path = 'study3/datareadings/gain4_17april_21april_detrended.csv'
     output_folder = 'detrend_plots'
     apply_baseline_drift_correction(file_path, output_file_path, output_folder)
